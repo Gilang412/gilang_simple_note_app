@@ -35,6 +35,13 @@ GET http://192.168.18.155:8000/notes/read
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJmZ2lsbmcyMjRAZ21haWwuY29tIiwiaWF0IjoxNjczNzE5NjE4fQ.BsPVLH6KXiVo-Z3t-KLtyZcy-H2V-1nB-47yquY65cQ
 
+
+### read notes by id
+GET http://192.168.18.155:8000/notes/read/2
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJmZ2lsbmcyMjRAZ21haWwuY29tIiwiaWF0IjoxNjczNzE5NjE4fQ.BsPVLH6KXiVo-Z3t-KLtyZcy-H2V-1nB-47yquY65cQ
+
+
 ### update notes
 PUT http://192.168.18.155:8000/notes/update/3
 Content-Type: application/json
@@ -51,7 +58,7 @@ Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJmZ2lsbmcyMjRAZ21haWwuY29tIiwiaWF0IjoxNjczNzE5NjE4fQ.BsPVLH6KXiVo-Z3t-KLtyZcy-H2V-1nB-47yquY65cQ
 
 ### search notes
-GET http://192.168.18.155:8000/notes/search?query=di
+GET http://192.168.18.155:8000/notes/search?query=He
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJmZ2lsbmcyMjRAZ21haWwuY29tIiwiaWF0IjoxNjczNzE5NjE4fQ.BsPVLH6KXiVo-Z3t-KLtyZcy-H2V-1nB-47yquY65cQ
 
