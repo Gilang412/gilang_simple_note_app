@@ -3,7 +3,7 @@ POST http://192.168.18.155:8000/user/create
 Content-Type: application/json
 
 {
-    "email": "fgilng224@gmail.com",
+    "email": "haris@gmail.com",
     "password": "131313"
 }
 
@@ -26,8 +26,8 @@ Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJmZ2lsbmcyMjRAZ21haWwuY29tIiwiaWF0IjoxNjczNzE5NjE4fQ.BsPVLH6KXiVo-Z3t-KLtyZcy-H2V-1nB-47yquY65cQ
 
 {
-    "title": "ini title pertama",
-    "notes": "ini notes pertama"
+    "title": "Helo",
+    "notes": "ini  4"
 }
 
 ### read notes
@@ -49,3 +49,9 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiO
 DELETE http://192.168.18.155:8000/notes/delete/1
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJmZ2lsbmcyMjRAZ21haWwuY29tIiwiaWF0IjoxNjczNzE5NjE4fQ.BsPVLH6KXiVo-Z3t-KLtyZcy-H2V-1nB-47yquY65cQ
+
+### search notes
+GET http://192.168.18.155:8000/notes/search?query=di
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJmZ2lsbmcyMjRAZ21haWwuY29tIiwiaWF0IjoxNjczNzE5NjE4fQ.BsPVLH6KXiVo-Z3t-KLtyZcy-H2V-1nB-47yquY65cQ
+
